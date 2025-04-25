@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de protección</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="protec.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- CSS de Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- JS de Bootstrap (con Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    
+</head>
+<body>
+    
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div id="parte1">
+            <div class="logo">
+                <img src="Captura de pantalla 2025-04-14 175022.png" alt="PNWX Logo">
+            </div>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar productos..." required>
+                <div class="butn"><i class="fas fa-search icon"></i></div>
+            </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    
+
+    <main class="container">
+      
+        
+        <!-- Producto -->
+        <section class="product-main">
+            <div class="product-gallery">
+                <img src="delantal-plomo.jpg" alt="Delantal de plomo" class="main-image">
+                <div class="thumbnail-container">
+                    <img src="delantal-plomo-1.jpg" alt="Vista 1" class="thumbnail">
+                    <img src="delantal-plomo-2.jpg" alt="Vista 2" class="thumbnail">
+                    <img src="delantal-plomo-3.jpg" alt="Vista 3" class="thumbnail">
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <h1 class="product-title">Delantales de Plomo</h1>
+                <h2 class="product-subtitle">Protección radiológica de alta calidad</h2>
+                
+                <p class="product-description">
+                    Diseñados para brindar protección óptima durante procedimientos radiológicos. Fabricados con materiales de primera calidad que ofrecen hasta 0.5 mm de equivalente en plomo (Pb), garantizando la seguridad del personal médico.
+                </p>
+                
+                <ul class="features-list">
+                    <li>Protección equivalente: 0.25mm, 0.35mm o 0.5mm Pb</li>
+                    <li>Materiales ligeros y ergonómicos</li>
+                    <li>Disponible en varios tamaños (S, M, L, XL)</li>
+                    <li>Diseño anatómico para mayor comodidad</li>
+                    <li>Cumple con normativas internacionales de seguridad</li>
+                </ul>
+                
+                <div class="price-container">
+                    <p>Precio desde:</p>
+                    <p class="price">$299.99 USD</p>
+                    <p>*Precio varía según especificaciones</p>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Cotizar ahora</a>
+                    <a href="#" class="btn btn-secondary"><i class="fas fa-question-circle"></i> Consultar especificaciones</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Productos relacionados -->
+        <section class="related-products">
+            <h2 class="section-title">Productos relacionados</h2>
+            
+           <!-- Carrusel de productos -->
+        <div id="productsCarousel" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#productsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#productsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <!-- Grupo 1 (Slide 1) -->
+                <div class="carousel-item active">
+                    <div class="products-grid">
+                        <!-- Producto 1 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="guantes-radiacion.jpg" class="card-img-top" alt="Guantes quirúrgicos">
+                                <div class="card-body">
+                                    <h5 class="card-title">Guantes quirúrgicos con reducción de radiación</h5>
+                                    <p class="card-text">Ofrecen seguridad adicional para el personal médico durante procedimientos.</p>
+                                </div>
+
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Producto 2 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="cortinas-plomo.jpg" class="card-img-top" alt="Cortinas de plomo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cortinas de plomo</h5>
+                                    <p class="card-text">Utilizadas para separar áreas y minimizar la exposición a radiación.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Producto 3 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="barreras-plomo.jpg" class="card-img-top" alt="Barreras móviles">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barreras móviles de plomo</h5>
+                                    <p class="card-text">Proporcionan protección flexible en diferentes entornos médicos.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Producto 4 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="vidrio-plomo.jpg" class="card-img-top" alt="Vidrio de plomo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vidrio de plomo</h5>
+                                    <p class="card-text">Permite la visualización segura en salas de rayos X y áreas controladas.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                
+                <!-- Grupo 2 (Slide 2) - Puedes duplicar o cambiar estos productos -->
+                <div class="carousel-item">
+                    <div class="products-grid">
+                        <!-- Producto 5 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="delantal-plomo.jpg" class="card-img-top" alt="Delantal de plomo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Delantal de plomo</h5>
+                                    <p class="card-text">Protección esencial para técnicos radiólogos.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                        </div>
+                        </div>
+                        
+                        <!-- Producto 6 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="protector-tiroides.jpg" class="card-img-top" alt="Protector de tiroides">
+                                <div class="card-body">
+                                    <h5 class="card-title">Protector de tiroides</h5>
+                                    <p class="card-text">Protección especializada para la glándula tiroides.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Producto 7 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="gafas-plomo.jpg" class="card-img-top" alt="Gafas de protección">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gafas de protección</h5>
+                                    <p class="card-text">Protección ocular contra radiación dispersa.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Producto 8 -->
+                        <div class="product-card">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="fantoma-resolucion.jpg" class="card-img-top" alt="Fantoma de resolución">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fantoma de resolución</h5>
+                                    <p class="card-text">Para evaluación de calidad en sistemas radiográficos.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#productsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-primary rounded-circle p-3" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-primary rounded-circle p-3" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+           
+        </section>
+
+
+        
+    </main>
+    
+  
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <div class="footer-logo">
+                            <img src="logo.png">
+                        </div>
+                        <p>Líderes en soluciones radiológicas. Comprometidos con la seguridad y la innovación tecnológica.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Enlaces Rápidos</h3>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contacto</h3>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Av. Tecnológico 123, CDMX</p>
+                            <p><i class="fas fa-phone"></i> +52 55 1234 5678</p>
+                            <p><i class="fas fa-envelope"></i> info@pnwx.com.mx</p>
+                            <p><i class="fas fa-clock"></i> Lunes-Viernes: 9am - 6pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 PNWX. </p>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>
